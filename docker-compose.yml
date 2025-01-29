@@ -19,7 +19,7 @@ services:
     ports:
       - '3000:3000'
     environment:
-      - DATABASE_URL: postgresql://nanogp:nano1234567890@[YOUR_SERVER_IP]:5432/school
+      - DATABASE_URL: postgresql://nanogp:nano1234567890@localhost:5432/school
     depends_on:
       - postgres
 
